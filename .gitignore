@@ -1,0 +1,4 @@
+.bundle/
+bin/
+.byebug_history
+.idea/

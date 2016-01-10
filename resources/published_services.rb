@@ -1,0 +1,1 @@
+PUBLISHED_SERVICES = ["AmazonVPC", "AmazonSES", "AmazonEC2", "AmazonCloudFront", "AmazonDynamoDB", "AmazonRoute53", "AmazonGlacier", "AmazonElastiCache", "AmazonRDS", "awskms", "AmazonSimpleDB", "AmazonS3", "AmazonRedshift"]
