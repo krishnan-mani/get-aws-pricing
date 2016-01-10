@@ -31,6 +31,7 @@ This API lets you query the same
 
 - The API currently lets you query S3 price information. More 'offer code's are being added, one at a time
 - The API will be versioned once it is stable
+- Pull requests invited at [github](https://github.com/krishnan-mani/get-aws-pricing)
 "
 
   footer "
@@ -68,8 +69,8 @@ get "/#{VERSION_ONE}/AmazonS3/Storage/pricing" do
   location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
   json s3_pricing.get_storage_pricing(
-    :location => location,
-    :volumeType => volumeType
+      :location => location,
+      :volumeType => volumeType
   )
 end
 
@@ -87,8 +88,8 @@ get "/#{VERSION_ONE}/AmazonS3/Fee/pricing" do
   location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
   json s3_pricing.get_fee_pricing(
-    :feeCode => feeCode,
-    :location => location
+      :feeCode => feeCode,
+      :location => location
   )
 end
 
@@ -106,19 +107,29 @@ get "/#{VERSION_ONE}/AmazonS3/API Request/pricing" do
   location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
   json s3_pricing.get_api_request_pricing(
-    :group => group,
-    :location => location
+      :group => group,
+      :location => location
   )
 end
 
-documentation "List locations supported as 'from location' for the Amazon S3 'Data Transfer' product family"
+documentation "List locations for 'from location' with the Amazon S3 'Data Transfer' product family"
 get "/#{VERSION_ONE}/AmazonS3/Data Transfer/from_locations" do
-  json s3_pricing.list_data_transfer_from_locations
+  published_from_locations = s3_pricing.list_data_transfer_from_locations
+  api_from_locations = {}
+  published_from_locations.each do |location|
+    api_from_locations[location] = PricingAPIConstants::LOCATIONS_AND_REGIONS[location]
+  end
+  json api_from_locations
 end
 
-documentation "List locations supported as 'to location' for the Amazon S3 'Data Transfer' product family"
+documentation "List locations for 'to location' for the Amazon S3 'Data Transfer' product family"
 get "/#{VERSION_ONE}/AmazonS3/Data Transfer/to_locations" do
-  json s3_pricing.list_data_transfer_to_locations
+  published_to_locations = s3_pricing.list_data_transfer_to_locations
+  api_to_locations = {}
+  published_to_locations.each do |location|
+    api_to_locations[location] = PricingAPIConstants::LOCATIONS_AND_REGIONS[location]
+  end
+  json api_to_locations
 end
 
 documentation "Get Amazon S3 pricing for 'Data Transfer' product family, by from location and to location" do
@@ -133,8 +144,8 @@ get "/#{VERSION_ONE}/AmazonS3/Data Transfer/pricing" do
   halt 404, "Invalid to location, see GET /#{VERSION_ONE}/AmazonS3/Data Transfer/to_locations" unless valid_to_location?(toLocation)
 
   json s3_pricing.get_data_transfer_pricing(
-    :fromLocation => fromLocation,
-    :toLocation => toLocation
+      :fromLocation => fromLocation,
+      :toLocation => toLocation
   )
 end
 

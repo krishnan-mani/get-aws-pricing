@@ -3,3 +3,4 @@ This API lets users query pricing information and can be accessed at [get-aws-pr
 
 - Support for published 'offer codes' is being added, one at a time. S3 is done, EC2 is in the works. Pull requests are welcome.
 - This API will be versioned once stable.
+- Test-drive the API using the Postman collection and test environments under resources
