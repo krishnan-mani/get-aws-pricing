@@ -1,5 +1,5 @@
-require 'json'
 require 'mongo'
+require 'json'
 
 require_relative 'offer_codes'
 require_relative 'write_pricing'
