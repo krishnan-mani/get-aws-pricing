@@ -1,9 +1,23 @@
+require 'mongo'
 require 'yaml'
+
 require_relative 'lib/save_S3_pricing'
 require_relative 'lib/save_ec2_pricing'
 require_relative 'lib/save_route53_pricing'
 
 task :default => ["save_all"]
+
+desc 'Clear database'
+task :clear_data do
+  run_locally = ENV['RUN_LOCAL'] && ENV['RUN_LOCAL'].eql?('true') || false
+
+  uri = ENV['MONGOLAB_URI']
+  if run_locally
+    uri = 'mongodb://127.0.0.1:27017/get_aws_pricing'
+  end
+  db = Mongo::Client.new(uri).database
+  db.drop
+end
 
 desc 'Saves all pricing'
 task :save_all => [ :save_S3_pricing, :save_EC2_pricing, :save_Route53_pricing ] do
