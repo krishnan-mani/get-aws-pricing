@@ -17,10 +17,12 @@ class WriteEC2PricingToDB
     @publication_date = @ec2_pricing['publicationDate']
 
     @products = @ec2_pricing['products']
+    @terms = @ec2_pricing['terms']
   end
 
   def save_all
-    save_products
+    save_products(EC2_OFFER_CODE)
+    save_term_types_term_codes_rate_codes(EC2_OFFER_CODE)
   end
 
 end

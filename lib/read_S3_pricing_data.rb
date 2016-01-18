@@ -27,7 +27,7 @@ class ReadS3PricingData
     fee_codes = @client[:skus].find.distinct("attributes.feeCode")
     fee_descriptions = []
     fee_codes.each do |code|
-      @client[:skus].find({"attributes.feeCode":code}).limit(1).each do |doc|
+      @client[:skus].find({"attributes.feeCode": code}).limit(1).each do |doc|
         fee_descriptions << {"feeCode" => code, "feeDescription" => doc['attributes']['feeDescription']}
       end
     end
@@ -39,7 +39,7 @@ class ReadS3PricingData
     groups = @client[:skus].find.distinct("attributes.group")
     group_descriptions = []
     groups.each do |group|
-      @client[:skus].find({"attributes.group":group}).limit(1).each do |doc|
+      @client[:skus].find({"attributes.group": group}).limit(1).each do |doc|
         group_descriptions << {"group" => group, "groupDescription" => doc['attributes']['groupDescription']}
       end
     end
@@ -49,11 +49,11 @@ class ReadS3PricingData
 
   def get_fee_pricing(options)
     sku_doc = find_sku({
-      "offerCode": options[:offerCode],
-      "productFamily": options[:productFamily],
-      "attributes.feeCode": options[:feeCode],
-      "attributes.location": options[:location]
-    })
+                           "offerCode": options[:offerCode],
+                           "productFamily": options[:productFamily],
+                           "attributes.feeCode": options[:feeCode],
+                           "attributes.location": options[:location]
+                       })
     find_rate_codes_for_sku(sku_doc)
   end
 
@@ -68,31 +68,31 @@ class ReadS3PricingData
 
   def get_api_request_pricing(options)
     sku_doc = find_sku({
-      "offerCode": options[:offerCode],
-      "productFamily": options[:productFamily],
-      "attributes.group": options[:group],
-      "attributes.location": options[:location]
-    })
+                           "offerCode": options[:offerCode],
+                           "productFamily": options[:productFamily],
+                           "attributes.group": options[:group],
+                           "attributes.location": options[:location]
+                       })
     find_rate_codes_for_sku(sku_doc)
   end
 
   def get_data_transfer_pricing(options)
     sku_doc = find_sku({
-      "offerCode": options[:offerCode],
-      "productFamily": options[:productFamily],
-      "attributes.fromLocation": options[:fromLocation],
-      "attributes.toLocation": options[:toLocation]
-    })
+                           "offerCode": options[:offerCode],
+                           "productFamily": options[:productFamily],
+                           "attributes.fromLocation": options[:fromLocation],
+                           "attributes.toLocation": options[:toLocation]
+                       })
     find_rate_codes_for_sku(sku_doc)
   end
 
   def get_storage_pricing(options)
     sku_doc = find_sku({
-      "offerCode": options[:offerCode],
-      "productFamily": options[:productFamily],
-      "attributes.location": options[:location],
-      "attributes.volumeType": options[:volumeType]
-      })
+                           "offerCode": options[:offerCode],
+                           "productFamily": options[:productFamily],
+                           "attributes.location": options[:location],
+                           "attributes.volumeType": options[:volumeType]
+                       })
     find_rate_codes_for_sku(sku_doc)
   end
 
@@ -108,7 +108,7 @@ class ReadS3PricingData
   end
 
   def find_offer_term_code(sku)
-    @client[:offer_term_codes].find({"sku":sku}).limit(1).first
+    @client[:offer_term_codes].find({"sku": sku}).limit(1).first
   end
 
   def get_term_types(offer_code)
