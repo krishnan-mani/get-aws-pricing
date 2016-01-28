@@ -8,6 +8,7 @@ require_relative '../resources/versions'
 require_relative '../resources/published_services'
 require_relative '../lib/get_S3_pricing'
 
+
 configured_uri = ENV['MONGOLAB_URI']
 begin
   config_file 'config/config.yml'

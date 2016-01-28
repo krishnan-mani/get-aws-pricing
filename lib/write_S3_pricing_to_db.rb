@@ -12,9 +12,8 @@ class WriteS3PricingToDB
     @client = Mongo::Client.new(uri)
 
     @s3_pricing = JSON.parse(file)
-    @version = @s3_pricing['version']
-    @reader = ReadS3PricingData.new(@version, uri)
 
+    @version = @s3_pricing['version']
     @format_version = @s3_pricing['formatVersion']
     @offer_code = @s3_pricing['offerCode']
     @publication_date = @s3_pricing['publicationDate']

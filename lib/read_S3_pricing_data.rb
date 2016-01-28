@@ -7,8 +7,8 @@ class ReadS3PricingData
     @client = Mongo::Client.new(uri)
   end
 
-  def list_storage_volume_types
-    @client[:skus].find.distinct("attributes.volumeType").sort
+  def list_storage_volume_types(offer_code)
+    @client[:skus].find({"offerCode": offer_code}).distinct("attributes.volumeType").sort
   end
 
   def get_product_families

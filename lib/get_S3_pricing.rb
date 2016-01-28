@@ -1,4 +1,5 @@
 require_relative 'read_S3_pricing_data'
+require_relative 'offer_codes'
 
 class GetS3Pricing
 
@@ -72,7 +73,7 @@ class GetS3Pricing
   end
 
   def list_storage_volume_types
-    @reader.list_storage_volume_types
+    @reader.list_storage_volume_types(S3_OFFER_CODE)
   end
 
   def list_data_transfer_from_locations
