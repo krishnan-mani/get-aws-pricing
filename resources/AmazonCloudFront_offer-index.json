@@ -1,0 +1,1959 @@
+{
+  "formatVersion" : "v1.0",
+  "disclaimer" : "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/",
+  "offerCode" : "AmazonCloudFront",
+  "version" : "20151209101504",
+  "publicationDate" : "2015-12-09T10:15:04Z",
+  "products" : {
+    "3R2FUPWJ2VYY9GAN" : {
+      "sku" : "3R2FUPWJ2VYY9GAN",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "Japan",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "JP-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "VDPZYE3674YDGVPU" : {
+      "sku" : "VDPZYE3674YDGVPU",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "India",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "IN-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "4J582QHKRXP8XUMU" : {
+      "sku" : "4J582QHKRXP8XUMU",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Australia",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AU-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "2HPGFMFR4R8MYDJV" : {
+      "sku" : "2HPGFMFR4R8MYDJV",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Asia Pacific",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AP-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "VU3485RNDU6HBQF6" : {
+      "sku" : "VU3485RNDU6HBQF6",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "Europe",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "EU-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "NPFD6SEH9MXS8M4J" : {
+      "sku" : "NPFD6SEH9MXS8M4J",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "United States",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "US-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "GJTTXSYXV43ANXTQ" : {
+      "sku" : "GJTTXSYXV43ANXTQ",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "India",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "IN-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "FZ8U6AWT2BMH7T8F" : {
+      "sku" : "FZ8U6AWT2BMH7T8F",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "South America",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "SA-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "YA5QZD7XG45UGHCH" : {
+      "sku" : "YA5QZD7XG45UGHCH",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Europe",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "EU-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "DCX5PSWXNPZDK63Q" : {
+      "sku" : "DCX5PSWXNPZDK63Q",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "United States",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "US-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "GV2WFGX37Q9PDSHF" : {
+      "sku" : "GV2WFGX37Q9PDSHF",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "United States",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "US-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "6DSK78RX8E8ZV684" : {
+      "sku" : "6DSK78RX8E8ZV684",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Europe",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "EU-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "8JNNPNBQD9DSHV5K" : {
+      "sku" : "8JNNPNBQD9DSHV5K",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "Australia",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "AU-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "QUEZ7XDZJJXURBU7" : {
+      "sku" : "QUEZ7XDZJJXURBU7",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "group" : "CF-SSL-Cert-Custom",
+        "groupDescription" : "Charge for using an SSL certificate with a CloudFront alternate domain name",
+        "usagetype" : "SSL-Cert-Custom",
+        "operation" : ""
+      }
+    },
+    "NZ4NVSNUH8BS2X2Z" : {
+      "sku" : "NZ4NVSNUH8BS2X2Z",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Japan",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "JP-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "NTMFPCBFRPVVZD7S" : {
+      "sku" : "NTMFPCBFRPVVZD7S",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "South America",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "SA-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "MA5MA7NZ72QR35RX" : {
+      "sku" : "MA5MA7NZ72QR35RX",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "India",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "IN-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "C3HHMR3U9CR9AK63" : {
+      "sku" : "C3HHMR3U9CR9AK63",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "Europe",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "EU-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "78WBDMMUMU9U8T6A" : {
+      "sku" : "78WBDMMUMU9U8T6A",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "Australia",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "AU-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "PMVMEYDK8MT2WW79" : {
+      "sku" : "PMVMEYDK8MT2WW79",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "South America",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "SA-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "U3HVZF9WJEM7TE55" : {
+      "sku" : "U3HVZF9WJEM7TE55",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "group" : "CF-Invalidations",
+        "groupDescription" : "Charge for invalidating objects (removing the objects from CloudFront edge locations)",
+        "usagetype" : "Invalidations",
+        "operation" : ""
+      }
+    },
+    "CME9BRJSS2F5PBYE" : {
+      "sku" : "CME9BRJSS2F5PBYE",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "Japan",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "JP-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "ZT3N6V49SHDM9P3G" : {
+      "sku" : "ZT3N6V49SHDM9P3G",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "South America",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "SA-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "U8P37H38743VG7RS" : {
+      "sku" : "U8P37H38743VG7RS",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "Asia Pacific",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "AP-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "5QJB78GUMD9XJTA4" : {
+      "sku" : "5QJB78GUMD9XJTA4",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "United States",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "US-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "A86N9S7CGUKZHH8P" : {
+      "sku" : "A86N9S7CGUKZHH8P",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "Asia Pacific",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "AP-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "SUYUX3YD9AB7U6US" : {
+      "sku" : "SUYUX3YD9AB7U6US",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "United States",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "US-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "WPQ4GKWXD4CZFUMH" : {
+      "sku" : "WPQ4GKWXD4CZFUMH",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Japan",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "JP-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "RMHN72PV763FZQ9G" : {
+      "sku" : "RMHN72PV763FZQ9G",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Europe",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "EU-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "DYPCJA8S8VE4ZCKF" : {
+      "sku" : "DYPCJA8S8VE4ZCKF",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "India",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "IN-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "4V34MN2EVACKUWTK" : {
+      "sku" : "4V34MN2EVACKUWTK",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Australia",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AU-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "EJZT492VM8J2VQTQ" : {
+      "sku" : "EJZT492VM8J2VQTQ",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Japan",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "JP-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "ZCK32TM5EWB55PBA" : {
+      "sku" : "ZCK32TM5EWB55PBA",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Asia Pacific",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AP-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "W6KHTEW6VCKTZFTR" : {
+      "sku" : "W6KHTEW6VCKTZFTR",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Asia Pacific",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AP-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "GTNGTASZWM5Y2YH6" : {
+      "sku" : "GTNGTASZWM5Y2YH6",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Australia",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AU-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "62FMXYC43CP8KPXW" : {
+      "sku" : "62FMXYC43CP8KPXW",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Japan",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "JP-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "UXQZBACDMWAAH7NE" : {
+      "sku" : "UXQZBACDMWAAH7NE",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "South America",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "SA-Requests-Tier1",
+        "operation" : "GET",
+        "requestDescription" : "HTTP GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier1"
+      }
+    },
+    "6J62KXVUTY288CJX" : {
+      "sku" : "6J62KXVUTY288CJX",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Asia Pacific",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AP-Requests-HTTPS-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTPS DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTPS-Proxy"
+      }
+    },
+    "XVZYVSAH88373VKR" : {
+      "sku" : "XVZYVSAH88373VKR",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront Outbound",
+        "fromLocation" : "India",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "IN-DataTransfer-Out-Bytes",
+        "operation" : ""
+      }
+    },
+    "AGSZEF5XC2MG4FUH" : {
+      "sku" : "AGSZEF5XC2MG4FUH",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "United States",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "US-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "XXEA4SCG9TSQCDF2" : {
+      "sku" : "XXEA4SCG9TSQCDF2",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Australia",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "AU-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    },
+    "YR9KNSXHQ8YZU3RU" : {
+      "sku" : "YR9KNSXHQ8YZU3RU",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "transferType" : "CloudFront to Origin",
+        "fromLocation" : "India",
+        "fromLocationType" : "AWS Edge Location",
+        "toLocation" : "Data Origin",
+        "toLocationType" : "Other",
+        "usagetype" : "IN-DataTransfer-Out-OBytes",
+        "operation" : ""
+      }
+    },
+    "XD7ZDAECJ2BPHRKJ" : {
+      "sku" : "XD7ZDAECJ2BPHRKJ",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "Europe",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "EU-Requests-HTTP-Proxy",
+        "operation" : "",
+        "requestDescription" : "HTTP DELETE, OPTIONS, PATCH, POST, and PUT requests that CloudFront forwards to your origin",
+        "requestType" : "CloudFront-Request-HTTP-Proxy"
+      }
+    },
+    "FUWQBJC8EW2AP9J4" : {
+      "sku" : "FUWQBJC8EW2AP9J4",
+      "productFamily" : "Request",
+      "attributes" : {
+        "servicecode" : "AmazonCloudFront",
+        "location" : "South America",
+        "locationType" : "AWS Edge Location",
+        "usagetype" : "SA-Requests-Tier2-HTTPS",
+        "operation" : "",
+        "requestDescription" : "HTTPS GET and HEAD requests",
+        "requestType" : "CloudFront-Request-Tier2"
+      }
+    }
+  },
+  "terms" : {
+    "OnDemand" : {
+      "3R2FUPWJ2VYY9GAN" : {
+        "3R2FUPWJ2VYY9GAN.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "3R2FUPWJ2VYY9GAN",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "3R2FUPWJ2VYY9GAN.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "3R2FUPWJ2VYY9GAN.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.060 per GB - All data transfer out to Origin (Japan)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "VDPZYE3674YDGVPU" : {
+        "VDPZYE3674YDGVPU.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "VDPZYE3674YDGVPU",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "VDPZYE3674YDGVPU.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "VDPZYE3674YDGVPU.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 Proxy HTTPS Requests (India)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "4J582QHKRXP8XUMU" : {
+        "4J582QHKRXP8XUMU.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "4J582QHKRXP8XUMU",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "4J582QHKRXP8XUMU.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "4J582QHKRXP8XUMU.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "2HPGFMFR4R8MYDJV" : {
+        "2HPGFMFR4R8MYDJV.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "2HPGFMFR4R8MYDJV",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "2HPGFMFR4R8MYDJV.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "2HPGFMFR4R8MYDJV.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 Proxy HTTP Requests (Asia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "VU3485RNDU6HBQF6" : {
+        "VU3485RNDU6HBQF6.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "VU3485RNDU6HBQF6",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "VU3485RNDU6HBQF6.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.060 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.080 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0800000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.025 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0250000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.085 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0850000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.040 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.030 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0300000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "VU3485RNDU6HBQF6.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "VU3485RNDU6HBQF6.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.020 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0200000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NPFD6SEH9MXS8M4J" : {
+        "NPFD6SEH9MXS8M4J.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "NPFD6SEH9MXS8M4J",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "NPFD6SEH9MXS8M4J.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "NPFD6SEH9MXS8M4J.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0100 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000010000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "GJTTXSYXV43ANXTQ" : {
+        "GJTTXSYXV43ANXTQ.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "GJTTXSYXV43ANXTQ",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "GJTTXSYXV43ANXTQ.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "GJTTXSYXV43ANXTQ.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 HTTPS Requests (India)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "FZ8U6AWT2BMH7T8F" : {
+        "FZ8U6AWT2BMH7T8F.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "FZ8U6AWT2BMH7T8F",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "FZ8U6AWT2BMH7T8F.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "FZ8U6AWT2BMH7T8F.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.125 per GB - All data transfer out to Origin (South America)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1250000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YA5QZD7XG45UGHCH" : {
+        "YA5QZD7XG45UGHCH.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "YA5QZD7XG45UGHCH",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "YA5QZD7XG45UGHCH.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "YA5QZD7XG45UGHCH.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "DCX5PSWXNPZDK63Q" : {
+        "DCX5PSWXNPZDK63Q.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "DCX5PSWXNPZDK63Q",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "DCX5PSWXNPZDK63Q.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "DCX5PSWXNPZDK63Q.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0100 per 10,000 Proxy HTTPS Requests (US)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000010000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "GV2WFGX37Q9PDSHF" : {
+        "GV2WFGX37Q9PDSHF.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "GV2WFGX37Q9PDSHF",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.030 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0300000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.080 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0800000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.020 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0200000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.025 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0250000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.040 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.060 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GV2WFGX37Q9PDSHF.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "GV2WFGX37Q9PDSHF.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.085 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0850000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "6DSK78RX8E8ZV684" : {
+        "6DSK78RX8E8ZV684.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "6DSK78RX8E8ZV684",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "6DSK78RX8E8ZV684.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "6DSK78RX8E8ZV684.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 Proxy HTTPS Requests (Europe)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "8JNNPNBQD9DSHV5K" : {
+        "8JNNPNBQD9DSHV5K.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "8JNNPNBQD9DSHV5K",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.120 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1200000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.140 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.095 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0950000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.135 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1350000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.085 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0850000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.100 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1000000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "8JNNPNBQD9DSHV5K.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "8JNNPNBQD9DSHV5K.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.090 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0900000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "QUEZ7XDZJJXURBU7" : {
+        "QUEZ7XDZJJXURBU7.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "QUEZ7XDZJJXURBU7",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "QUEZ7XDZJJXURBU7.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "QUEZ7XDZJJXURBU7.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$600.00 per month per custom SSL certificate",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Mo",
+              "pricePerUnit" : {
+                "USD" : "600.0000000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NZ4NVSNUH8BS2X2Z" : {
+        "NZ4NVSNUH8BS2X2Z.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "NZ4NVSNUH8BS2X2Z",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "NZ4NVSNUH8BS2X2Z.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "NZ4NVSNUH8BS2X2Z.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 Proxy HTTP Requests (Japan)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NTMFPCBFRPVVZD7S" : {
+        "NTMFPCBFRPVVZD7S.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "NTMFPCBFRPVVZD7S",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "NTMFPCBFRPVVZD7S.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "NTMFPCBFRPVVZD7S.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0160 per 10,000 Proxy HTTP Requests (South America)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000016000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "MA5MA7NZ72QR35RX" : {
+        "MA5MA7NZ72QR35RX.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "MA5MA7NZ72QR35RX",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "MA5MA7NZ72QR35RX.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "MA5MA7NZ72QR35RX.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 Proxy HTTP Requests (India)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "C3HHMR3U9CR9AK63" : {
+        "C3HHMR3U9CR9AK63.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "C3HHMR3U9CR9AK63",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "C3HHMR3U9CR9AK63.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "C3HHMR3U9CR9AK63.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.020 per GB - All data transfer out to Origin (Europe)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0200000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "78WBDMMUMU9U8T6A" : {
+        "78WBDMMUMU9U8T6A.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "78WBDMMUMU9U8T6A",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "78WBDMMUMU9U8T6A.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "78WBDMMUMU9U8T6A.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.10 per GB - All data transfer out to Origin (Australia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1000000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "PMVMEYDK8MT2WW79" : {
+        "PMVMEYDK8MT2WW79.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "PMVMEYDK8MT2WW79",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "PMVMEYDK8MT2WW79.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "PMVMEYDK8MT2WW79.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0220 per 10,000 Proxy HTTPS Requests (South America)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000022000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "U3HVZF9WJEM7TE55" : {
+        "U3HVZF9WJEM7TE55.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "U3HVZF9WJEM7TE55",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "U3HVZF9WJEM7TE55.JRTCKXETXF.MUBTP6UPGZ" : {
+              "rateCode" : "U3HVZF9WJEM7TE55.JRTCKXETXF.MUBTP6UPGZ",
+              "description" : "$0.005 per URL - over 1,000 URLs / month.",
+              "beginRange" : "1000",
+              "endRange" : "Inf",
+              "unit" : "URL",
+              "pricePerUnit" : {
+                "USD" : "0.0050000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "U3HVZF9WJEM7TE55.JRTCKXETXF.JXGPBPHWFF" : {
+              "rateCode" : "U3HVZF9WJEM7TE55.JRTCKXETXF.JXGPBPHWFF",
+              "description" : "$0.000 per URL - first 1,000 URLs / month.",
+              "beginRange" : "0",
+              "endRange" : "1000",
+              "unit" : "URL",
+              "pricePerUnit" : {
+                "USD" : "0.0000000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "CME9BRJSS2F5PBYE" : {
+        "CME9BRJSS2F5PBYE.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "CME9BRJSS2F5PBYE",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.120 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1200000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.100 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1000000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.070 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0700000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.135 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1350000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.140 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.060 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "CME9BRJSS2F5PBYE.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "CME9BRJSS2F5PBYE.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.080 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0800000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "ZT3N6V49SHDM9P3G" : {
+        "ZT3N6V49SHDM9P3G.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "ZT3N6V49SHDM9P3G",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.160 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.130 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1300000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.125 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1250000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.200 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.2000000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.140 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.180 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1800000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "ZT3N6V49SHDM9P3G.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "ZT3N6V49SHDM9P3G.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.250 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.2500000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "U8P37H38743VG7RS" : {
+        "U8P37H38743VG7RS.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "U8P37H38743VG7RS",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "U8P37H38743VG7RS.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "U8P37H38743VG7RS.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.060 per GB - All data transfer out to Origin (Asia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "5QJB78GUMD9XJTA4" : {
+        "5QJB78GUMD9XJTA4.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "5QJB78GUMD9XJTA4",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "5QJB78GUMD9XJTA4.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "5QJB78GUMD9XJTA4.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0075 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000007500"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "A86N9S7CGUKZHH8P" : {
+        "A86N9S7CGUKZHH8P.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "A86N9S7CGUKZHH8P",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.SW9U2ZKBYX" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.SW9U2ZKBYX",
+              "description" : "$0.060 per GB - data transfer out / month over 5 PB",
+              "beginRange" : "5242880",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.135 per GB - next 40 TB / month data transfer out",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1350000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.RBMR72YW69" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.RBMR72YW69",
+              "description" : "$0.070 per GB - next 4 PB / month data transfer out",
+              "beginRange" : "1048576",
+              "endRange" : "5242880",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0700000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.AZ7GJS7NVF" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.AZ7GJS7NVF",
+              "description" : "$0.100 per GB - next 350 TB / month data transfer out",
+              "beginRange" : "153600",
+              "endRange" : "512000",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1000000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.140 per GB - first 10 TB / month data transfer out",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1400000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.3B9CK5AZ6J" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.3B9CK5AZ6J",
+              "description" : "$0.080 per GB - next 524 TB / month data transfer out",
+              "beginRange" : "512000",
+              "endRange" : "1048576",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0800000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "A86N9S7CGUKZHH8P.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "A86N9S7CGUKZHH8P.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.120 per GB - next 100 TB / month data transfer out",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1200000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "SUYUX3YD9AB7U6US" : {
+        "SUYUX3YD9AB7U6US.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "SUYUX3YD9AB7U6US",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "SUYUX3YD9AB7U6US.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "SUYUX3YD9AB7U6US.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0075 per 10,000 Proxy HTTP Requests (US)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000007500"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "WPQ4GKWXD4CZFUMH" : {
+        "WPQ4GKWXD4CZFUMH.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "WPQ4GKWXD4CZFUMH",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "WPQ4GKWXD4CZFUMH.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "WPQ4GKWXD4CZFUMH.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "RMHN72PV763FZQ9G" : {
+        "RMHN72PV763FZQ9G.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "RMHN72PV763FZQ9G",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "RMHN72PV763FZQ9G.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "RMHN72PV763FZQ9G.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "DYPCJA8S8VE4ZCKF" : {
+        "DYPCJA8S8VE4ZCKF.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "DYPCJA8S8VE4ZCKF",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "DYPCJA8S8VE4ZCKF.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "DYPCJA8S8VE4ZCKF.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 HTTP Requests (India)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "4V34MN2EVACKUWTK" : {
+        "4V34MN2EVACKUWTK.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "4V34MN2EVACKUWTK",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "4V34MN2EVACKUWTK.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "4V34MN2EVACKUWTK.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0125 per 10,000 Proxy HTTPS Requests (Australia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012500"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "EJZT492VM8J2VQTQ" : {
+        "EJZT492VM8J2VQTQ.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "EJZT492VM8J2VQTQ",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "EJZT492VM8J2VQTQ.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "EJZT492VM8J2VQTQ.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.012 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "ZCK32TM5EWB55PBA" : {
+        "ZCK32TM5EWB55PBA.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "ZCK32TM5EWB55PBA",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "ZCK32TM5EWB55PBA.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "ZCK32TM5EWB55PBA.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "W6KHTEW6VCKTZFTR" : {
+        "W6KHTEW6VCKTZFTR.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "W6KHTEW6VCKTZFTR",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "W6KHTEW6VCKTZFTR.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "W6KHTEW6VCKTZFTR.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.012 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "GTNGTASZWM5Y2YH6" : {
+        "GTNGTASZWM5Y2YH6.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "GTNGTASZWM5Y2YH6",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "GTNGTASZWM5Y2YH6.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "GTNGTASZWM5Y2YH6.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 Proxy HTTP Requests (Australia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "62FMXYC43CP8KPXW" : {
+        "62FMXYC43CP8KPXW.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "62FMXYC43CP8KPXW",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "62FMXYC43CP8KPXW.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "62FMXYC43CP8KPXW.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 Proxy HTTPS Requests (Japan)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "UXQZBACDMWAAH7NE" : {
+        "UXQZBACDMWAAH7NE.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "UXQZBACDMWAAH7NE",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "UXQZBACDMWAAH7NE.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "UXQZBACDMWAAH7NE.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0160 per 10,000 HTTP Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000016000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "6J62KXVUTY288CJX" : {
+        "6J62KXVUTY288CJX.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "6J62KXVUTY288CJX",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "6J62KXVUTY288CJX.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "6J62KXVUTY288CJX.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0120 per 10,000 Proxy HTTPS Requests (Asia)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "XVZYVSAH88373VKR" : {
+        "XVZYVSAH88373VKR.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "XVZYVSAH88373VKR",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "XVZYVSAH88373VKR.JRTCKXETXF.Q3Z75P77EN" : {
+              "rateCode" : "XVZYVSAH88373VKR.JRTCKXETXF.Q3Z75P77EN",
+              "description" : "$0.170 per GB - first 10 TB / month data transfer out (India)",
+              "beginRange" : "0",
+              "endRange" : "10240",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1700000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "XVZYVSAH88373VKR.JRTCKXETXF.VF6T3GAUKQ" : {
+              "rateCode" : "XVZYVSAH88373VKR.JRTCKXETXF.VF6T3GAUKQ",
+              "description" : "$0.130 per GB - next 40 TB / month data transfer out (India)",
+              "beginRange" : "10240",
+              "endRange" : "51200",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1300000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "XVZYVSAH88373VKR.JRTCKXETXF.N9EW5UVVPA" : {
+              "rateCode" : "XVZYVSAH88373VKR.JRTCKXETXF.N9EW5UVVPA",
+              "description" : "$0.110 per GB - next 100 TB / month data transfer out (India)",
+              "beginRange" : "51200",
+              "endRange" : "153600",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1100000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "XVZYVSAH88373VKR.JRTCKXETXF.GPHXDESFBB" : {
+              "rateCode" : "XVZYVSAH88373VKR.JRTCKXETXF.GPHXDESFBB",
+              "description" : "$0.100 per GB - data transfer out / month over 150 TB (India)",
+              "beginRange" : "153600",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1000000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "AGSZEF5XC2MG4FUH" : {
+        "AGSZEF5XC2MG4FUH.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "AGSZEF5XC2MG4FUH",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "AGSZEF5XC2MG4FUH.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "AGSZEF5XC2MG4FUH.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.020 per GB - All data transfer out to Origin (US)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.0200000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "XXEA4SCG9TSQCDF2" : {
+        "XXEA4SCG9TSQCDF2.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "XXEA4SCG9TSQCDF2",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "XXEA4SCG9TSQCDF2.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "XXEA4SCG9TSQCDF2.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0125 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000012500"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YR9KNSXHQ8YZU3RU" : {
+        "YR9KNSXHQ8YZU3RU.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "YR9KNSXHQ8YZU3RU",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "YR9KNSXHQ8YZU3RU.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "YR9KNSXHQ8YZU3RU.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.16 per GB - All data transfer out to Origin (India)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "USD" : "0.1600000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "XD7ZDAECJ2BPHRKJ" : {
+        "XD7ZDAECJ2BPHRKJ.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "XD7ZDAECJ2BPHRKJ",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "XD7ZDAECJ2BPHRKJ.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "XD7ZDAECJ2BPHRKJ.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0090 per 10,000 Proxy HTTP Requests (Europe)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000009000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "FUWQBJC8EW2AP9J4" : {
+        "FUWQBJC8EW2AP9J4.JRTCKXETXF" : {
+          "offerTermCode" : "JRTCKXETXF",
+          "sku" : "FUWQBJC8EW2AP9J4",
+          "effectiveDate" : "2014-12-01T00:00:00Z",
+          "priceDimensions" : {
+            "FUWQBJC8EW2AP9J4.JRTCKXETXF.6YS6EN2CT7" : {
+              "rateCode" : "FUWQBJC8EW2AP9J4.JRTCKXETXF.6YS6EN2CT7",
+              "description" : "$0.0220 per 10,000 HTTPS Requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "USD" : "0.0000022000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      }
+    }
+  }
+}
