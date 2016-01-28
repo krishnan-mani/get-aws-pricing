@@ -11,8 +11,8 @@ class ReadS3PricingData
     @client[:skus].find({"offerCode": offer_code}).distinct("attributes.volumeType").sort
   end
 
-  def get_product_families
-    @client[:skus].find.distinct("productFamily").sort
+  def get_product_families(offer_code)
+    @client[:skus].find({"offerCode": offer_code}).distinct("productFamily").sort
   end
 
   def list_data_transfer_from_locations

@@ -69,7 +69,7 @@ class GetS3Pricing
   end
 
   def get_product_families
-    @reader.get_product_families
+    @reader.get_product_families(S3_OFFER_CODE)
   end
 
   def list_storage_volume_types
