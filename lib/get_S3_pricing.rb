@@ -89,7 +89,7 @@ class GetS3Pricing
   end
 
   def get_api_request_groups
-    @reader.get_api_request_groups
+    @reader.get_api_request_groups(S3_OFFER_CODE)
   end
 
 end

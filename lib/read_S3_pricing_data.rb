@@ -35,8 +35,8 @@ class ReadS3PricingData
     fee_descriptions
   end
 
-  def get_api_request_groups
-    groups = @client[:skus].find.distinct("attributes.group")
+  def get_api_request_groups(offer_code)
+    groups = @client[:skus].find({"offerCode": offer_code}).distinct("attributes.group")
     group_descriptions = []
     groups.each do |group|
       @client[:skus].find({"attributes.group": group}).limit(1).each do |doc|
