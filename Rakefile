@@ -4,6 +4,8 @@ require 'yaml'
 require_relative 'lib/save_S3_pricing'
 require_relative 'lib/save_ec2_pricing'
 require_relative 'lib/save_route53_pricing'
+require_relative 'lib/save_offer_pricing'
+
 
 task :default => ["save_all"]
 
@@ -20,7 +22,19 @@ task :clear_data do
 end
 
 desc 'Saves all pricing'
-task :save_all => [ :save_S3_pricing, :save_EC2_pricing, :save_Route53_pricing ] do
+task :save_all do
+  run_locally = ENV['RUN_LOCAL'] && ENV['RUN_LOCAL'].eql?('true') || false
+
+  uri = ENV['MONGOLAB_URI']
+  if run_locally
+    uri = 'mongodb://127.0.0.1:27017/all_get_aws_pricing'
+  end
+
+  offer_index_files = Dir.entries("resources").select { |x| x.include?("offer-index") and x.end_with?(".json") }
+  offer_index_files.each do |filename|
+    offer_index_filename = File.join('resources', filename)
+    SaveOfferPricing.new(uri, offer_index_filename).save
+  end
 end
 
 desc 'Saves S3 pricing only'

@@ -3,7 +3,6 @@ require 'mongo'
 
 require_relative 'write_pricing'
 require_relative 'offer_codes'
-require_relative 'read_S3_pricing_data'
 
 class WriteS3PricingToDB
   include WritePricing
