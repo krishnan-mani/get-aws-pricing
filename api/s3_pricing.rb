@@ -11,12 +11,12 @@ require_relative '../lib/get_S3_pricing'
 
 class S3Pricing < Sinatra::Base
   register Sinatra::ConfigFile
+  register Sinatra::DocDsl
 
   configured_uri = ENV['MONGOLAB_URI']
   begin
     config_file 'config/config.yml'
     configured_uri = settings.database_uri
-  rescue
   end
 
   raise 'No URI was configured' unless configured_uri
@@ -24,7 +24,6 @@ class S3Pricing < Sinatra::Base
 
   s3_pricing = GetS3Pricing.new("#{VERSION_ONE}", settings.uri)
 
-  register Sinatra::DocDsl
 
   page do
     title "An API for AWS Price List"
