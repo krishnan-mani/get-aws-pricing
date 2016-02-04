@@ -1,2 +1,3 @@
-require_relative 'api/app'
-run Sinatra::Application
+require_relative 'api/s3_pricing'
+
+run S3Pricing
