@@ -48,6 +48,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   mongo
+  rack-test
   rspec
   sinatra
   sinatra-contrib

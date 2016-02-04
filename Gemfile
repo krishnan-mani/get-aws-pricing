@@ -10,6 +10,7 @@ gem 'sinatra-contrib'
 gem 'sinatra-docdsl'
 
 group :test do
+  gem 'rack-test'
   gem 'byebug'
   gem 'rspec'
 end
