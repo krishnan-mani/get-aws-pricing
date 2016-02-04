@@ -4,10 +4,11 @@ require "sinatra/config_file"
 require 'docdsl'
 
 require_relative 'constants'
-require_relative '../resources/versions'
 require_relative '../resources/published_services'
 require_relative '../lib/get_S3_pricing'
+require_relative '../lib/version_agnostic_pricing_data_reader'
 
+require 'byebug'
 
 configured_uri = ENV['MONGOLAB_URI']
 begin
@@ -19,7 +20,9 @@ end
 raise 'No URI was configured' unless configured_uri
 set :uri, configured_uri
 
+VERSION_ONE='20160107021538'
 s3_pricing = GetS3Pricing.new("#{VERSION_ONE}", settings.uri)
+version_agnostic_reader = VersionAgnosticPricingDataReader.new(settings.uri)
 
 register Sinatra::DocDsl
 
@@ -40,24 +43,23 @@ This API lets you query the same
 "
 end
 
-documentation "List Price List versions published by AWS"
-get "/meta/versions" do
-  json VERSIONS
+documentation "List Price List versions by 'offer code's published by AWS. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
+get "/meta/versions_by_offer_codes" do
+  json version_agnostic_reader.list_published_price_list_versions_by_offer_code
 end
 
-documentation "List Amazon S3 'offer code's. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
-get "/meta/#{VERSION_ONE}/offer_codes_published" do
-  json PUBLISHED_SERVICES.sort
+documentation "List all published AWS 'offer code's. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
+get "/meta/all_offer_codes" do
+  json version_agnostic_reader.list_all_offer_codes
 end
 
-documentation "List Amazon S3 'product families'. A product family (like 'Storage') is one form of pricing on S3"
-
-get "/#{VERSION_ONE}/AmazonS3/product_families" do
+documentation "List Amazon S3 'product families' at version. A product family (like 'Storage') is one form of pricing on S3"
+get "/AmazonS3/:version/product_families" do
   json s3_pricing.get_product_families
 end
 
-documentation "List Amazon S3 'volume type's for the 'Storage' product family"
-get "/#{VERSION_ONE}/AmazonS3/Storage/volume_types" do
+documentation "List Amazon S3 'volume type's for the 'Storage' product family at version"
+get "/AmazonS3/:version/Storage/volume_types" do
   json s3_pricing.list_storage_volume_types
 end
 
