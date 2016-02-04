@@ -12,4 +12,9 @@ RSpec.describe EC2Pricing do
     expect(product_families).to eql(expected_product_families)
   end
 
+  it 'GET reserved instance pricing' do
+    get '/AmazonEC2/20151209144527/reserved'
+    expect(last_response).to be_ok
+  end
+
 end

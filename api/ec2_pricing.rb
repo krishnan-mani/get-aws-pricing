@@ -33,8 +33,8 @@ class EC2Pricing < Sinatra::Base
     json ec2_pricing.get_product_families(version)
   end
 
-  get "/AmazonEC2/:version/reserved_instances" do
-    version = params[:version]
+  get '/AmazonEC2/:version/reserved' do
+
   end
 
 end
