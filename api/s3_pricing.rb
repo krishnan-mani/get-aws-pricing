@@ -2,6 +2,7 @@ require 'sinatra'
 require 'sinatra/json'
 require "sinatra/config_file"
 require 'docdsl'
+require 'logger'
 
 require_relative 'constants'
 require_relative '../resources/versions'
@@ -13,14 +14,24 @@ class S3Pricing < Sinatra::Base
   register Sinatra::ConfigFile
   register Sinatra::DocDsl
 
+  logger = Logger.new(STDOUT)
+
   configured_uri = ENV['MONGOLAB_URI']
   begin
     config_file 'config/config.yml'
     configured_uri = settings.database_uri
+  rescue => ex
+    logger.error("Encountered an error configuring from file: #{ex.message}")
   end
 
-  raise 'No URI was configured' unless configured_uri
+  unless configured_uri
+    raise 'No URI was configured'
+    logger.error("Error configuring database URI")
+  end
+
   set :uri, configured_uri
+
+  logger.info("Database URI: #{configured_uri}")
 
   s3_pricing = GetS3Pricing.new("#{VERSION_ONE}", settings.uri)
 
