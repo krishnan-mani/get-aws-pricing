@@ -4,7 +4,7 @@ require_relative '../lib/read_S3_pricing_data'
 RSpec.describe ReadS3PricingData do
 
 version = '20151209181126'
-uri = 'mongodb://127.0.0.1:27017/get_aws_pricing_test'
+uri = database_uri
 
   context "it reads term types given offer code" do
     it "returns term types when some exist for the offer code" do
