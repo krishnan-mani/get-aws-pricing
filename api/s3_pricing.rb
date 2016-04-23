@@ -54,7 +54,7 @@ This API lets you query the same
 
   documentation "List Amazon S3 'product families'. A product family (like 'Storage') is one form of pricing on S3"
 
-  get "/#{VERSION_ONE}/AmazonS3/product_families" do
+  get "/v1.0/AmazonS3/product_families" do
     json s3_pricing.get_product_families
   end
 
