@@ -75,9 +75,10 @@ module WritePricing
   end
 
   def get_term_types(offer_code)
-    @client[:term_types].find({:offerCode => offer_code}).collect do |term_type_doc|
+    term_types = @client[:term_types].find({:offerCode => offer_code}).collect do |term_type_doc|
       term_type_doc['termType']
     end
+    term_types.uniq
   end
 
   def decorate_doc_with_version(doc)
