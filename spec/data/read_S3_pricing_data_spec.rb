@@ -1,5 +1,5 @@
 require 'mongo'
-require_relative '../lib/read_S3_pricing_data'
+require_relative '../../lib/get_S3_pricing'
 
 RSpec.describe ReadS3PricingData do
 

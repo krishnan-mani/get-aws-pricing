@@ -1,4 +1,4 @@
-require_relative '../lib/get_S3_pricing'
+require_relative '../../lib/get_S3_pricing'
 
 RSpec.describe GetS3Pricing do
 
