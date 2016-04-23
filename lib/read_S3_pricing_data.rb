@@ -1,15 +1,12 @@
 require 'mongo'
 require_relative 'db/versioned_client'
 
-require 'byebug'
-
 class ReadS3PricingData
 
   def initialize(version, uri)
     @version = version
     @client = Mongo::Client.new(uri)
 
-    byebug
     @versioned_client = VersionedClient.new(@version, uri)
   end
 
