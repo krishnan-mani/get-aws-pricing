@@ -3,7 +3,7 @@ require_relative '../lib/get_S3_pricing'
 RSpec.describe GetS3Pricing do
 
   version = '20151209181126'
-  uri = 'mongodb://127.0.0.1:27017/get_aws_pricing'
+  uri = database_uri(true)
 
   context "for S3 Storage for the version 20151209181126" do
     it "returns the pricing for the specified region for the specified volume type" do
