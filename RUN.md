@@ -12,7 +12,8 @@ $ bundle install --binstubs
 
 ```
 $ cp api/config/config.yml.example api/config/config.yml
-$ rake save_all
+$ RUN_LOCAL=true rake clear_data
+$ RUN_LOCAL=true rake save_all
 ```
 
 - Run the tests
@@ -24,5 +25,5 @@ $ rspec
 - Run the API
 
 ```
-$ ruby api/app.rb
+$ rackup -p 4500
 ```
