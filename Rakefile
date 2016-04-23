@@ -4,7 +4,7 @@ require 'yaml'
 require_relative 'lib/save_offer_pricing'
 
 
-task :default => ["save_all"]
+task :default => ["clear_data", "save_all"]
 
 desc 'Clear database'
 task :clear_data do
