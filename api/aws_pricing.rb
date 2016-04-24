@@ -9,6 +9,9 @@ class AWSPricingAPI < Sinatra::Base
   register Sinatra::ConfigFile
   register Sinatra::DocDsl
 
+  # Mongo::Logger.logger       = ::Logger.new('mongo.log')
+  # Mongo::Logger.logger.level = ::Logger::INFO
+
   configured_uri = ENV['MONGOLAB_URI']
   begin
     config_file 'config/config.yml'
