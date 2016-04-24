@@ -1,4 +1,4 @@
-require_relative '../../../api/aws_pricing_api'
+require_relative '../../../api/aws_pricing'
 
 RSpec.describe AWSPricingAPI do
 
