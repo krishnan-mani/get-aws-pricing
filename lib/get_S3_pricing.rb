@@ -3,9 +3,8 @@ require_relative 'offer_codes'
 
 class GetS3Pricing
 
-  def initialize(version, uri)
-    @version = version
-    @reader = ReadS3PricingData.new(@version, uri)
+  def initialize(uri)
+    @reader = ReadS3PricingData.new(uri)
   end
 
   def get_fee_pricing(options)
@@ -91,5 +90,10 @@ class GetS3Pricing
   def get_api_request_groups
     @reader.get_api_request_groups(S3_OFFER_CODE)
   end
+
+  def get_offer_index_versions
+    @reader.get_offer_index_versions(S3_OFFER_CODE)
+  end
+
 
 end

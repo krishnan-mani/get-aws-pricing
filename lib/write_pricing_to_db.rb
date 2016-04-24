@@ -10,10 +10,11 @@ class WritePricingToDB
     @client = Mongo::Client.new(uri)
 
     @pricing = JSON.parse(file)
-    @offer_code = @pricing['offerCode']
 
-    @version = @pricing['version']
     @format_version = @pricing['formatVersion']
+    @disclaimer = @pricing['disclaimer']
+    @offer_code = @pricing['offerCode']
+    @version = @pricing['version']
     @publication_date = @pricing['publicationDate']
 
     @products = @pricing['products']
@@ -21,8 +22,20 @@ class WritePricingToDB
   end
 
   def save_all
+    save_offer_code
     save_products(@offer_code)
     save_term_types_term_codes_rate_codes(@offer_code)
+  end
+
+  def save_offer_code
+    offer_code_doc = {'_id': "#{@offer_code}:#{@version}",
+                      'formatVersion': @format_version,
+                      'disclaimer': @disclaimer,
+                      'offerCode': @offer_code,
+                      'version': @version,
+                      'publicationDate': @publication_date
+    }
+    @client[:offer_codes].replace_one({'offerCode': @offer_code, 'version': @version}, offer_code_doc, {:upsert => true})
   end
 
 end
