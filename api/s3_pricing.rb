@@ -26,25 +26,12 @@ class S3Pricing < Sinatra::Base
 
 
   page do
-    title "An API for AWS Price List"
-    header "get-aws-pricing"
-    introduction "
-AWS now publishes pricing information for services via [AWS Price List](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html).
-This API lets you query the same
-
-- The API currently lets you query S3 price information. More 'offer code's are being added, one at a time
-- The API will be versioned once it is stable
-- Pull requests invited at [github](https://github.com/krishnan-mani/get-aws-pricing)
-"
-
+    title "AWS Price List for S3"
+    header "get-aws-pricing for S3"
+    introduction "Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage"
     footer "
 - Contact km[AT]krishnanm[DOT]com
 "
-  end
-
-  documentation "List Price List versions published by AWS"
-  get "/meta/versions" do
-    json VERSIONS
   end
 
   documentation "List Amazon S3 'offer code's. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
@@ -152,11 +139,11 @@ This API lets you query the same
     )
   end
 
-  doc_endpoint "/doc"
+  doc_endpoint "/v1.0/AmazonS3/doc"
 
-  documentation "Nothing under /. Go look at /doc"
-  get "/" do
-    redirect "/doc"
+  documentation "Nothing under /AmazonS3. Go look at /v1.0/AmazonS3/doc"
+  get "/AmazonS3" do
+    redirect "/v1.0/AmazonS3/doc"
   end
 
   private
