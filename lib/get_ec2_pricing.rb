@@ -1,4 +1,4 @@
-require_relative 'read_EC2_pricing_data'
+require_relative 'read_ec2_pricing_data'
 
 class GetEC2Pricing
 
