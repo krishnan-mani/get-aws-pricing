@@ -1,17 +1,17 @@
 require 'mongo'
-require_relative 'db/versioned_client'
 
 class ReadS3PricingData
 
-  def initialize(version, uri)
-    @version = version
+  def initialize(uri)
     @client = Mongo::Client.new(uri)
+  end
 
-    @versioned_client = VersionedClient.new(@version, uri)
+  def get_offer_index_versions(offer_code)
+    @client[:offer_codes].find({'offerCode': offer_code}).distinct("version").sort
   end
 
   def list_storage_volume_types(offer_code)
-    @versioned_client.find(:skus, {"offerCode": offer_code}).distinct("attributes.volumeType").sort
+    @client[:skus].find({"offerCode": offer_code}).distinct("attributes.volumeType").sort
   end
 
   def get_product_families(offer_code)
@@ -118,13 +118,6 @@ class ReadS3PricingData
     @client[:term_types].find({:offerCode => offer_code}).collect do |term_type_doc|
       term_type_doc['termType']
     end
-  end
-
-  def get_master_data(for_type)
-    # offer code
-    # product family
-    # location
-    # volume type
   end
 
 end

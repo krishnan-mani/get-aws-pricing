@@ -13,8 +13,7 @@ class VersionedClient < Mongo::Collection
       filter_with_version = filter.merge(filter_with_version)
     end
 
-    resp = @client[collection].find(filter_with_version, options)
-    resp
+    @client[collection].find(filter_with_version, options)
   end
 
 end

@@ -2,11 +2,10 @@ require_relative '../../lib/get_S3_pricing'
 
 RSpec.describe GetS3Pricing do
 
-  version = '20151209181126'
   uri = database_uri(true)
 
-  context "for S3 Storage for the version 20151209181126" do
-    it "returns the pricing for the specified region for the specified volume type" do
+  context "for AmazonS3" do
+    it "returns pricing for the specified region for the specified volume type" do
 
 =begin
   Storage pricing for S3 in the Asia Pacific (Singapore) region for Standard Storage:
@@ -18,7 +17,7 @@ RSpec.describe GetS3Pricing do
   - Over 5000 TB/month costs $0.0275 per GB
 =end
 
-      get_s3_pricing = GetS3Pricing.new(version, uri)
+      get_s3_pricing = GetS3Pricing.new(uri)
       got_pricing = get_s3_pricing.get_storage_pricing(
           :location => 'Asia Pacific (Singapore)',
           :productFamily => 'Storage',

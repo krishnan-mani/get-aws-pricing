@@ -22,7 +22,7 @@ class S3Pricing < Sinatra::Base
   raise 'No URI was configured' unless configured_uri
   set :uri, configured_uri
 
-  s3_pricing = GetS3Pricing.new("#{VERSION_ONE}", settings.uri)
+  s3_pricing = GetS3Pricing.new(settings.uri)
 
 
   page do
@@ -34,13 +34,17 @@ class S3Pricing < Sinatra::Base
 "
   end
 
+  documentation "Lists offer-index versions published for AmazonS3 via this API"
+  get '/v1.0/AmazonS3/offer-index_versions' do
+    json s3_pricing.get_offer_index_versions
+  end
+
   documentation "List Amazon S3 'offer code's. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
   get "/meta/#{VERSION_ONE}/offer_codes_published" do
     json PUBLISHED_SERVICES.sort
   end
 
   documentation "List Amazon S3 'product families'. A product family (like 'Storage') is one form of pricing on S3"
-
   get "/v1.0/AmazonS3/product_families" do
     json s3_pricing.get_product_families
   end

@@ -105,8 +105,13 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+  config.filter_run :focus
+  config.run_all_when_everything_filtered = true
+  config.order = :random
+
 end
 
 def database_uri(for_api = false)
-  for_api ? "mongodb://127.0.0.1:27017/get_aws_pricing": "mongodb://127.0.0.1:27017/test_get_aws_pricing'"
+  for_api ? "mongodb://127.0.0.1:27017/get_aws_pricing": "mongodb://127.0.0.1:27017/test_get_aws_pricing"
 end
