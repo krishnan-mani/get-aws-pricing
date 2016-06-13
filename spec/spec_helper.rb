@@ -112,6 +112,8 @@ RSpec.configure do |config|
 
 end
 
+ENV["DATABASE_URL"] = "mongodb://127.0.0.1:27017/test_save_aws_pricing"
+
 def database_uri(for_api = false)
   for_api ? "mongodb://127.0.0.1:27017/get_aws_pricing": "mongodb://127.0.0.1:27017/test_get_aws_pricing"
 end
