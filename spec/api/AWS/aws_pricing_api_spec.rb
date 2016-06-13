@@ -15,7 +15,7 @@ RSpec.describe AWSPricingAPI do
     expect(last_response).to be_ok
     offer_codes = last_response.body
 
-    expected_offer_codes = '["AmazonCloudFront","AmazonDynamoDB","AmazonEC2","AmazonElastiCache","AmazonGlacier","AmazonRDS","AmazonRedshift","AmazonRoute53","AmazonS3","AmazonSES","AmazonSimpleDB","AmazonVPC","awskms"]'
+    expected_offer_codes = '["AmazonEC2","AmazonRoute53","AmazonS3"]'
     expect(offer_codes).to eql(expected_offer_codes)
   end
 

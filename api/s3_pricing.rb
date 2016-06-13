@@ -4,8 +4,6 @@ require "sinatra/config_file"
 require 'docdsl'
 
 require_relative 'constants'
-require_relative '../resources/versions'
-require_relative '../resources/published_services'
 require_relative '../lib/get_S3_pricing'
 
 
@@ -35,30 +33,25 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "Lists offer-index versions published for AmazonS3 via this API"
-  get '/v1.0/AmazonS3/offer-index_versions' do
+  get '/v1/AmazonS3/offer-index_versions' do
     json s3_pricing.get_offer_index_versions
   end
 
-  documentation "List Amazon S3 'offer code's. An offer code (like 'AmazonS3') is an AWS service that has pricing published via Price List."
-  get "/meta/#{VERSION_ONE}/offer_codes_published" do
-    json PUBLISHED_SERVICES.sort
-  end
-
   documentation "List Amazon S3 'product families'. A product family (like 'Storage') is one form of pricing on S3"
-  get "/v1.0/AmazonS3/product_families" do
+  get "/v1/AmazonS3/product_families" do
     json s3_pricing.get_product_families
   end
 
   documentation "List Amazon S3 'volume type's for the 'Storage' product family"
-  get "/#{VERSION_ONE}/AmazonS3/Storage/volume_types" do
+  get "/v1/AmazonS3/Storage/volume_types" do
     json s3_pricing.list_storage_volume_types
   end
 
   documentation "Get Amazon S3 pricing for 'Storage' product family, by volume type and location" do
-    query_param :volumeType, "A volume type in S3 from at GET /#{VERSION_ONE}/AmazonS3/Storage/volume_types"
+    query_param :volumeType, "A volume type in S3 from at GET /v1/AmazonS3/Storage/volume_types"
     query_param :location, "An AWS region"
   end
-  get "/#{VERSION_ONE}/AmazonS3/Storage/pricing" do
+  get "/v1/AmazonS3/Storage/pricing" do
     volumeType = params['volumeType']
     location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
@@ -69,15 +62,15 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "List Amazon S3 'fee code's for the 'Fee' product family"
-  get "/#{VERSION_ONE}/AmazonS3/Fee/fee_codes" do
+  get "/v1/AmazonS3/Fee/fee_codes" do
     json s3_pricing.get_fee_codes
   end
 
   documentation "Get Amazon S3 pricing for the 'Fee' product family, by fee code and location" do
-    query_param :feeCode, "One of the fee codes from GET /#{VERSION_ONE}/AmazonS3/Fee/fee_codes"
+    query_param :feeCode, "One of the fee codes from GET /v1/AmazonS3/Fee/fee_codes"
     query_param :location, "An AWS region"
   end
-  get "/#{VERSION_ONE}/AmazonS3/Fee/pricing" do
+  get "/v1,0/AmazonS3/Fee/pricing" do
     feeCode = params['feeCode']
     location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
@@ -88,15 +81,15 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "Get Amazon S3 'group's for the 'API Request' product family"
-  get "/#{VERSION_ONE}/AmazonS3/API Request/groups" do
+  get "/v1/AmazonS3/API Request/groups" do
     json s3_pricing.get_api_request_groups
   end
 
   documentation "Get Amazon S3 pricing for 'API Request' product family, by group and location" do
-    query_param :group, "One of the groups from GET /#{VERSION_ONE}/AmazonS3/API Request/groups"
+    query_param :group, "One of the groups from GET /v1/AmazonS3/API Request/groups"
     query_param :location, "An AWS region"
   end
-  get "/#{VERSION_ONE}/AmazonS3/API Request/pricing" do
+  get "/v1/AmazonS3/API Request/pricing" do
     group = params['group']
     location = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['location']]
 
@@ -107,7 +100,7 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "List locations for 'from location' with the Amazon S3 'Data Transfer' product family"
-  get "/#{VERSION_ONE}/AmazonS3/Data Transfer/from_locations" do
+  get "/v1/AmazonS3/Data Transfer/from_locations" do
     published_from_locations = s3_pricing.list_data_transfer_from_locations
     api_from_locations = {}
     published_from_locations.each do |location|
@@ -117,7 +110,7 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "List locations for 'to location' for the Amazon S3 'Data Transfer' product family"
-  get "/#{VERSION_ONE}/AmazonS3/Data Transfer/to_locations" do
+  get "/v1/AmazonS3/Data Transfer/to_locations" do
     published_to_locations = s3_pricing.list_data_transfer_to_locations
     api_to_locations = {}
     published_to_locations.each do |location|
@@ -127,15 +120,15 @@ class S3Pricing < Sinatra::Base
   end
 
   documentation "Get Amazon S3 pricing for 'Data Transfer' product family, by from location and to location" do
-    query_param :fromLocation, "An AWS region or other location from GET /#{VERSION_ONE}/AmazonS3/Data Transfer/from_locations"
-    query_param :toLocation, "An AWS region or other location from listed at GET /#{VERSION_ONE}/AmazonS3/Data Transfer/to_locations"
+    query_param :fromLocation, "An AWS region or other location from GET /v1/AmazonS3/Data Transfer/from_locations"
+    query_param :toLocation, "An AWS region or other location from listed at GET /v1/AmazonS3/Data Transfer/to_locations"
   end
-  get "/#{VERSION_ONE}/AmazonS3/Data Transfer/pricing" do
+  get "/v1/AmazonS3/Data Transfer/pricing" do
     fromLocation = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['fromLocation']]
-    halt 404, "Invalid from location, see GET /#{VERSION_ONE}/AmazonS3/Data Transfer/from_locations" unless valid_from_location?(fromLocation)
+    halt 404, "Invalid from location, see GET /v1/AmazonS3/Data Transfer/from_locations" unless valid_from_location?(fromLocation)
 
     toLocation = PricingAPIConstants::REGIONS_AND_LOCATIONS[params['toLocation']]
-    halt 404, "Invalid to location, see GET /#{VERSION_ONE}/AmazonS3/Data Transfer/to_locations" unless valid_to_location?(toLocation)
+    halt 404, "Invalid to location, see GET /v1/AmazonS3/Data Transfer/to_locations" unless valid_to_location?(toLocation)
 
     json s3_pricing.get_data_transfer_pricing(
         :fromLocation => fromLocation,
@@ -143,21 +136,21 @@ class S3Pricing < Sinatra::Base
     )
   end
 
-  doc_endpoint "/v1.0/AmazonS3/doc"
+  doc_endpoint "/v1/AmazonS3/doc"
 
-  documentation "Nothing under /AmazonS3. Go look at /v1.0/AmazonS3/doc"
+  documentation "Nothing under /AmazonS3. Go look at /v1/AmazonS3/doc"
   get "/AmazonS3" do
-    redirect "/v1.0/AmazonS3/doc"
+    redirect "/v1/AmazonS3/doc"
   end
 
   private
 
   def valid_from_location?(location)
-    GetS3Pricing.new("#{VERSION_ONE}", settings.uri).list_data_transfer_from_locations.include?(location)
+    GetS3Pricing.new("v1", settings.uri).list_data_transfer_from_locations.include?(location)
   end
 
   def valid_to_location?(location)
-    GetS3Pricing.new("#{VERSION_ONE}", settings.uri).list_data_transfer_to_locations.include?(location)
+    GetS3Pricing.new("v1", settings.uri).list_data_transfer_to_locations.include?(location)
   end
 
 end
