@@ -13,3 +13,7 @@ So I can compute the cost of such use.
 As a consumer of the API,
 I want to find the price of a particular use of AWS resources using multiple AWS services together in a particular AWS region,
 So I can compute the cost of such use.
+
+As a consumer of the API,
+I want to find the price of a particular use of AWS resources using multiple AWS services in several AWS regions,
+So I can compute the cost of such use.
